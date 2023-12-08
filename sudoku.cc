@@ -176,7 +176,7 @@ public:
 int main()
 {
     SudokuCSP sat = SudokuCSP();
-    sat.load("sudokuweird.txt");
+    sat.load("sudokueasy.txt");
     sat.prettyprint();
     sat.backtrackBegin();
 }
